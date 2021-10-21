@@ -18,6 +18,11 @@ describe('Basic Tests', () => {
     expect(result).to.be.equal(-5);
   })
 
+  it('sumPositive', () => {
+    const result = calc.sum(2, 3);
+    expect(result).to.be.equal(5);
+  })
+
   it('div', () => {
     const result = calc.div(4, 2);
     expect(result).to.be.equal(2);
